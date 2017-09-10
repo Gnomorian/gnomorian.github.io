@@ -16,7 +16,6 @@ article {
   text-align: center; 
   width: 650px; 
   margin: 0 auto; 
-  
 }
 a {
   color: #dc8100; 
@@ -30,6 +29,16 @@ a {
 
 #contact-list li {
   float: none;
+}
+
+#resume ul {
+  text-align: center;
+  list-style-position: inside;
+  float: none;
+}
+
+#resume li {
+	float: none;
 }
 
 a:hover { 
