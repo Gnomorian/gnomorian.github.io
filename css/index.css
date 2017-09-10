@@ -81,3 +81,19 @@ li a:hover {
 .social ul li a img {
   height: 32px;
 }
+
+/* Personal Projects Page */
+.project {
+	border-top: black;
+	border-top-style: solid;
+	border-top-width:2px;
+}
+
+.project img {
+	width: 100%;
+}
+
+.project-icons {
+	width: 16px !important;
+	margin-right: 5px;
+}

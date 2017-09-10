@@ -33,8 +33,41 @@
       </p>
     </div>
     <div class="tile" id="projects" style="display:none;">
-      <p>//TODO: list of projects i have made aswell as links to github and working copy</p>
+      <div id="clippy" class="project">
+		<h2>Clippy</h2>
+		<img src="images/clippy.png">
+		<p><img class="project-icons" src="images/information.svg">A desktop app to record all your clipboard copies so you can use them again when you overwrite it.</p>
+		<p><img class="project-icons" src="images/keyboard.jpg">it is made with java</p>
+		<p><img class="project-icons" src="images/GitHub-Mark.png">Github Link</p>
+		<h3>The Pros</h3>
+		<p>The app has been very useful to me, it sits in the tray recording my clipboard entries, if I copied something a while ago and can't find it again, it will be sitting in clippy, I just have to right click it, and select the sting I want to set to my clipboard. you can also modify how much it remembers, by default it's the last 10 entries, but it has a settings menu so you  can adjust that to whatever you like.</p>
+		<h3>The Cons</h3>
+		<p>you can manually make it run at startup, but it has a checkbox to set it too run at startup that doesn't work at the moment as I have to account for all operating systems, which I haven't got round to doing yet.</p>
+	  </div>
+	  <div id="stockfinder" class="project">
+		<h2>Stock Finder</h2>
+		<img src="images/stockfinder.png">
+		<p><img class="project-icons" src="images/information.svg">A website I can run on my phone to record where all my excess stock is at work for finding easily months later.</p>
+		<p><img class="project-icons" src="images/keyboard.jpg">It is made with CodeIgniter, a PHP framework. and MySQL as a database.</p>
+		<p><img class="project-icons" src="images/GitHub-Mark.png">Github Link</p>
+		<h3>The Pros</h3>
+		<p>I was quite pleased with this project, I learnt a lot about MySQL and  User Authentication by making this. It is fully functional, it can record all the shoes I store at work, the forms presented to the user are dynamic based on the MySQL database incase I add new Categories of shoes or remove them. you can search for everything or apply a filter. You can delete a single item or add new Items to the database.</p>
+		<h3>The Cons</h3>
+		<p>The website isn't overly pretty, it was designed more for form than function, the one major con with this application is it is quite tedious. it takes quite a lot of time to type in the name, brand, location of a product you're adding to StockFinder. your browser will help by remembering previous entries which speeds things up, but I realised the best way to make this as efficient as possible is via the barcodes that are on every product. I can not reasonably use that. I require access to my workplaces stock database and they wouldn't give me that kind of access. the only options is leave it there but be a bit inefficient or to make a web crawler to go through the company's public website to scrape off information like all the barcodes, names of products, brands etc.</p>
+	  </div>
+	  <div id="blog" class="project">
+		<h2>Blog</h2>
+		<img src="images/blog.png">
+		<p><img class="project-icons" src="images/information.svg">This is a blog website I made, originally designed as my portfolio</p>
+		<p><img class="project-icons" src="images/keyboard.jpg">the project is made with CodeIgniter a PHP Framework and MySQL as a database.</p>
+		<p><img class="project-icons" src="images/GitHub-Mark.png">Github Link</p>
+		<h3>The Pros</h3>
+		<p>I have never been satisfied with my portfolio, I have changed it 4 times already, this was attempt 2. the idea was that the home page contained a description about me, the latest blog posts, which were updates to projects I have made as well as links to how all updates to a specific project. I have all of these features working as well as users have the ability to post comments on a post and I can log into the site too add/remove comments/post/projects.</p>
+		<h3>The Cons</h3>
+		<p>I realised once I made the blog, I never used it, I'm not a fan of the design I came up with for the blog either, it was not really my style</p>
+	  </div>
     </div>
+	  
     <div class="tile" id="contact" style="display:none;">
       <p>You can contact me via:</p>
       <ul id="contact-list">
