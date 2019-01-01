@@ -10,9 +10,9 @@ a working state was the AnswerMeBria project that I made for a colleague.<br>The
 they use C++ quite a bit at work, and I learnt most of that from stack overflow and tutorials, I feel it would be good for me to learn where it came from, learn concepts that don't exist
 in languages that i originally learn with such as pointers, how they work.<br>
 
-I am also going through this book because one of my personal projects i am "working on" is creating my own compiler. It is mainly a learning exercise, but also because I find some
+I am also going through this book because one of my personal projects I am "working on" is creating my own compiler. It is mainly a learning exercise, but also because I find some
 of C++ quite frustrating. Some of it feels tacked on as an afterthought, crowbarred in. There are more features added or changed each year. Bjarne Stroustrup warns of this as a problem in <a href="https://www.theregister.co.uk/2018/06/18/bjarne_stroustrup_c_plus_plus/">this article.</a><br>
 I would like to make a smaller language that has a useful set of features in it without the extra complication of 5 different ways to tackle the same problem. Like multiple ways of casting something and deprecated standard library functions, things that exist and work, but you can't use unless you have a specific define. But when you google how to do something, everyone uses this deprecated functions.</p>
 
-<p>Mentioning this to friends, i have been suggested to look at <a href=”https://www.nand2tetris.org/”>this course</a> which details everything involved from the hardware, os. create everything yourself to eventually have a device
-that can play tetris. which i think is quite neat, so i may do that as well.</p>
+<p>Mentioning this to friends, I have been suggested to look at <a href=”https://www.nand2tetris.org/”>this course</a> which details everything involved from the hardware, os. Create everything yourself to eventually have a device
+that can play tetris. which I think is quite neat, so I may do that as well.</p>
