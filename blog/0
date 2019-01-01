@@ -1,0 +1,18 @@
+<h2>Happy New Year!</h2>
+<h5>01/01/2019</h5>
+
+<p>Well, Happy New Year, it's been an interesting one. I got a new Job a year ago at Jade Software and I love it there. Everyone I work with is great and I have learnt quite a lot there.</p>
+
+<p>Side projects didn't really go anywhere, lack of time and my usual spastic jumping from one to the other and redoing everything played a part in that. the one project that did get to
+a working state was the AnswerMeBria project that I made for a colleague.<br>The only other thing that changed is this website in spirit, supports blogging now, which is why I can write this. since this is hosted on github, I can only do client side javascript, but it seems to work well enough.</p>
+
+<p>For a new years resolution, I am learning to read properly. When I read a book, I am keeping a pen in my hand and attempting to take notes at the same time, so I learn to comprehend it rather than just go through the motions of reading it. The book I have started reading to start this with is the C Programming Language by Brian Kernighan and Dennis Richie because
+they use C++ quite a bit at work, and I learnt most of that from stack overflow and tutorials, I feel it would be good for me to learn where it came from, learn concepts that don't exist
+in languages that i originally learn with such as pointers, how they work.<br>
+
+I am also going through this book because one of my personal projects i am "working on" is creating my own compiler. It is mainly a learning exercise, but also because I find some
+of C++ quite frustrating. Some of it feels tacked on as an afterthought, crowbarred in. There are more features added or changed each year. Bjarne Stroustrup warns of this as a problem in <a href="https://www.theregister.co.uk/2018/06/18/bjarne_stroustrup_c_plus_plus/">this article.</a><br>
+I would like to make a smaller language that has a useful set of features in it without the extra complication of 5 different ways to tackle the same problem. Like multiple ways of casting something and deprecated standard library functions, things that exist and work, but you can't use unless you have a specific define. But when you google how to do something, everyone uses this deprecated functions.</p>
+
+<p>Mentioning this to friends, i have been suggested to look at <a href=”https://www.nand2tetris.org/”>this course</a> which details everything involved from the hardware, os. create everything yourself to eventually have a device
+that can play tetris. which i think is quite neat, so i may do that as well.</p>

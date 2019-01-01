@@ -7,8 +7,9 @@
 <title>Williamc.nz</title>
 <link rel="stylesheet" type="text/css" href="css/index.css">
 <script type="text/javascript" src="scripts/TileSwitcher.js"></script>
+<script type="text/javascript" src="scripts/Blog.js"></script>
 </head>
-<body>
+<body onload="getBlogEntries()">
 <article>
   <h1>Hello There!</h1>
   <div class="navigation">
@@ -17,6 +18,7 @@
       <li><a href="#" onclick="setTile('about');">About</a></li>
       <li><a href="#" onclick="setTile('projects');">Personal Projects</a></li>
       <li><a href="#" onclick="setTile('resume');">Resume</a></li>
+	  <li><a href="#" onclick="setTile('blog-root');">Blog</a></li>
       <li><a href="#" onclick="setTile('contact');">Contact</a></li>
     </ul>
   </div>
@@ -119,6 +121,7 @@
 	  <p><b>Role</b>: Shoe Department Manager</p>
 	  <p><b>Responsibilities</b>: Stock movement, stocktaking, customer enquiries on the phone and around the store. Organising and implementing seasonal stock changes every quarter. Excellent customer service, knowledge of products and store layout are essential for this role.</p>
     </div>
+	<div class="tile" id="blog-root" style="display:none;"></div>
     <div class="social">
       <ul>
         <li><a target="_blank" href="https://github.com/gnomorian/"><img src="images/GitHub-Mark.png"></a></li>
